@@ -1,0 +1,36 @@
+.position-relative {
+    position: relative;
+}
+
+.start-0 {
+    left: 0%;
+}
+
+.start-20 {
+    left: 20%;
+}
+
+.start-40 {
+    left: 40%;
+}
+
+.start-60 {
+    left: 60%;
+}
+
+.start-80 {
+    left: 80%;
+}
+
+.start-100 {
+    left: 100%;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%);
+}
+
+.btn.btn-sm {
+    width: 2rem;
+    height: 2rem;
+}
