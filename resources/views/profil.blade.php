@@ -15,6 +15,7 @@
                 bawah dan bertanggung jawab kepada Kepala Bidang Pengendalian dan
                 Pengelolaan Lingkungan Hidup. </p>
             <p class="card-text" style="text-align: justify;"><a class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/img/admin-bantuan/peraturan-bupati-2022-123.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Peraturan Bupati Bantul Nomor 123 Tahun 2022 Tentang Penanaman dan Penebangan Pohon Perindang Jalan</a></p>
+            <p class="card-text" style="text-align: justify;"><a class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="/img/admin-bantuan/delineasi_perkotaan.pdf" target="_blank"><i class="bi bi-file-earmark-pdf"></i>Penetapan Delineasi RDTR</a></p>
         </div>
         <div class="card-body ">
             <h5 class="card-title">Tugas</h5>
