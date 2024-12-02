@@ -197,7 +197,7 @@
             <button type="submit" class="btn btn-success my-3">Submit</button>
             @elseif($data->status == 2)
             <div class="form-floating mt-3">
-                <input type="date" class="form-control tanggal" max="{{$today}}" min="{{$data->created_at->format('Y-m-d')}}" id="tgl_survei" placeholder="mm-dd-yyyy" name="tgl_survei" value="{{ old('tgl_survei') }}">
+                <input type="date" class="form-control tanggal" max="{{$today}}" min="{{$today}}" id="tgl_survei" placeholder="mm-dd-yyyy" name="tgl_survei" value="{{$today}}" readonly>
                 <label for="tgl_survei">Tanggal survei</label>
             </div>
             @error('tgl_survei')
@@ -269,7 +269,7 @@
             <button type="submit" class="btn btn-success my-3">Submit</button>
             @elseif($data->status == 4.1 || $data->status == 4.2 || $data->status == 4.3)
             <div class="form-floating mt-3">
-                <input type="date" class="form-control tanggal" max="{{$today}}" min="{{$data->created_at->format('Y-m-d')}}" id="tgl_pelaksanaan" placeholder="dd-MM-yyyy" name="tgl_pelaksanaan" value="{{ old('tgl_pelaksanaan') }}">
+                <input type="date" class="form-control tanggal" max="{{$today}}" min="{{$today}}" id="tgl_pelaksanaan" placeholder="dd-MM-yyyy" name="tgl_pelaksanaan" value="{{$today}}" readonly>
                 <label for="tgl_pelaksanaan">Pelaksanaan</label>
             </div>
             @error('tgl_pelaksanaan')
