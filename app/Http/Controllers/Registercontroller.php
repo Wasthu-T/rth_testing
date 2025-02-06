@@ -2,14 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Carbon\Carbon;
-use App\Models\otp;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Mail;
 
 class Registercontroller extends Controller
 {
@@ -39,7 +36,7 @@ class Registercontroller extends Controller
             'alamat' => 'required',
             'email' => 'required|email:dns|unique:users',
             'no_hp' => 'required|numeric|unique:users',
-            'password' => 'required|min:6|confirmed'
+            'password' => 'required|min:6|confirmed|regex:/^(?=.*\d)+$/',
         ]);
         $request->validate([
             'g-recaptcha-response' => 'required|captcha'

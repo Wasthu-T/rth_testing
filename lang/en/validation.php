@@ -162,7 +162,8 @@ return [
         'password' => [
             'required' => 'Password wajib diisi',
             'min' => 'Panjang password minimal 6',
-            'confirmed' => 'Password tidak mirip harap isi dengan benar'
+            'confirmed' => 'Password tidak mirip harap isi dengan benar',
+            'regex' => 'Password harus mengandung minimal satu angka dan satu karakter spesial',
         ],
         'lat' => [
             'required' => 'lat wajib diisi dengan klik untuk mendapatkan koordinat diatas',
